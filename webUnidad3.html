@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  
+  <title>
+    AppDeGatos
+  </title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h2>AppDeGatos</h2>
+  <main>
+    <h3 id="imagen-gato">Imagenes de gatos</h3>
+    <p>Haz click <a href="#" target="_blank" rel="noopener noreferrer">aqui</a> para ver mas imagenes de gatos</p>
+
+    <!--https://pixabay.com/es/images/search/gato/-->
+
+    <a href="#" target="_blank" rel="noopener noreferrer"><img id="chachis"
+        src="https://media.es.wired.com/photos/657cb5b81e17b099f8f9e15c/16:9/w_3008,h_1692,c_limit/gatos%20172050389.jpg"
+        width="400" /></a>
+
+    <div id="contenedor-principal">
+      <div class="rectangulo px">200px de ancho</div>
+      <div class="rectangulo vw">20vw de ancho</div>
+      <div class="rectangulo em">15em de ancho</div>
+    </div>
+    <div>
+      <h3>Listas de gatos</h3>
+      <p>cosas que los gatos aman</p>
+      <ul id="lista-1"> <!--unordered list: es para crear listas no ordenadas-->
+        <li>Menta gatuna</li> <!-- list item: es para especificar los elementos de la lista-->
+        <li>Apuntadores laser</li>
+        <li>Lasagna</li>
+
+      </ul>
+      <!--Agregar linea divisoria-->
+
+      <hr>
+      <img class="bordes-redondeados" src="imagenes/lasagna.jpg" width="400" alt="lasagna" />
+
+      <p>Cosas que los gatos odian</p>
+
+      <ol id="lista-2"><!--ordered list: es para crear listas ordenadas-->
+
+        <li><strong>Tratamientos antipulgas</strong></li>
+        <li><em>Truenos</em></li>
+        <li><s>Otros gatos</s></li>
+
+      </ol>
+      
+    </div>
+    <div id="div-2">
+    <img id="chachos" src="imagenes/gatos.jpg" width="400" />
+    </div>
+    <form action="/enviar.respuesta">
+      <!--botones de radio-->
+      <label><input for="interior" input id="interior" type="radio" value="interior"
+          name="interior-exterior">Interior</label><br>
+
+      <label><input for="exterior" input id="exterior" type="radio" value="exterior"
+          name="interior-exterior">Interior</label><br>
+      <!--casillas de verificación-->
+      <label for="carinoso"><input id="carinoso" type="checkbox" value="carinoso"         name="personalidad">Carinioso</label>
+      <label for="perezoso"><input id="perezoso" type="checkbox" value="perezoso" name="personalidad"
+          checked>Perezoso</label>
+      <label for="energico"><input id="energico" type="checkbox" value="energico"
+          name="personalidad">Energico</label><br>
+      <!--texto y boton enviar-->
+      <input type="text" placeholder="URL" required><br>
+
+      <button type="submit">Enviar</button><br>
+      
+
+    </form>
+
+  </main>
+  <footer>
+    <p><small>Sin derechos de autor - <a href="https://www.youtube.com.co/" target="_blank">chachis.com</a></small></p>
+  </footer>
+
+</body>
+
+</html>

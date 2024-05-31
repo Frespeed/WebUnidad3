@@ -1,0 +1,101 @@
+
+h2 {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+}
+
+
+/*div {
+  background-color: red;
+}*/
+#imagen-gato {
+  
+  font-size: 60px;
+  color: green;
+  font-family: Tahoma;
+  position: fixed;
+  left: 800px;
+}
+#chachis {
+  border-radius: 50%;
+  border-color: brown;
+  border-width: 8px;
+ 
+  border-style: solid dashed dotted double;
+}
+#lista-1 {
+  font-size: 20px;
+}
+#lista-2 {
+  color: rgb(4, 244, 236);
+}
+#div-2 {
+  background-color: yellow;
+}
+
+/*La diferencia entre margin y padding es que el padding es el espacio entre la imagen
+que vemos y el fondo de la imagen que en nuestro caso en color rosa y el margin es la
+distancia externa de la imagen completa con los elementos de su alrededor que en este caso
+es la distancia del borde negro con lo amarillo*/
+#chachos {
+  margin: 30px; /*En las margenes funciona igual que en el padding top left right bottom*/
+  background-color: pink;
+  padding: 10px 30px 40px 20px;/* También se puede hacer para que queden
+                               en una sola linea y debe hacerse como 
+                               las manecillas del reloj*/
+  /*padding-top: 10px;         
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;*/
+  border-color: black;
+  border-style: solid;
+}
+img[alt] { /*esto son selectores de atributo: imagenes que tengan el atributo alt*/
+  border-radius: 10%;
+}
+input[type="radio"] {  /*Tambien se puede [type="radio"] en caso de no ser necesario referenciar el elemento*/
+  margin: 10px;
+}
+[type="checkbox"] {
+  margin: 20px;
+}
+a[href="https://www.youtube.com.co/"] {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+#contenedor-principal {
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  background-color: yellow;
+  font-family: Verdana;
+
+}
+.rectangulo {
+  padding: 5px;
+  margin: 5px;
+
+}
+.px {
+  background-color: red;
+  width: 200px;
+}
+.vw {/*este tamaño va a variar dpendiendo del tamaño de la ventana del navegador que en este caso es del 20%*/
+  background-color: darkmagenta;
+  width: 20vw;
+}
+.em { /*en cambio esta es relativa al tamaño del texto*/
+  background-color: green;
+  width: 15em;
+  font-size: 1.5em; /*esto indica que es 1.5 veces más grande que lo que se declaró en el contenedor padre*/
+}
+body {
+  background-color: rgb(0, 255, 0, 0.166); /*mas formas de colores, el ultimo es transparencia entre 0.001 y 0.999 */
+  color: #5269ab;
+}
+
+
